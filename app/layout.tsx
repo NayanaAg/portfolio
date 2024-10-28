@@ -12,7 +12,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8"/>
+        <meta name="description" content="Nayana's portfolio: all my work experience, projects, hobbies, and more!" />
+        <meta name="keywords" content="HTML, CSS, Javascript, React, portfolio, resume, Nayana" />
+        <meta name="author" content="Nayana Agrawal" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body>{children}</body>
     </html>
-  )
+              )
 }

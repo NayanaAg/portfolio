@@ -81,3 +81,13 @@ p, a, li {
 #hero-banner {
     background: var(--gradient);
 }
+
+#hero-img {
+    filter: drop-shadow(-30px -20px #D86354);
+}
+
+#hero-img img {
+    margin-top: var(--md-space);
+    width: 100%;
+    clip-path: inset(0% 0% 10% 25% round 50% 50% 0px 0px);
+}

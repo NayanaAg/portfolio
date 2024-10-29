@@ -8,11 +8,13 @@ export default function Page() {
             <GlobalNav />
 
             <main>
-                <div className="row" id="hero-banner">
+                <div className="row d-flex" id="hero-banner">
                     <div className="col-md-5 offset-md-1">
-                        <img src="hero-banner.jpg" alt="picture of me" />
+                        <span id="hero-img">
+                            <img src="images/hero-banner.jpg" alt="picture of me" />
+                        </span>
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-5 ms-5 align-self-center">
                         <h1>welcome to my portfolio.</h1>
                     </div>
                 </div>

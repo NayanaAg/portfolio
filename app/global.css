@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,11 +13,13 @@
     --dark-bg: #00203F;
     --light-bg: #E7EDF3;
 
+    --gradient: linear-gradient(to bottom right, var(--secondary), var(--primary));
+
     --heading-font: "Eczar", serif;
     --body-font: "Noto Sans", sans-serif;
     --tag-font: "Space Grotesk", sans-serif;
 
-    --h1-size: 3em;
+    --h1-size: 4em;
     --h2-size: 1.5em;
     --h3-size: 1.2em;
     --body-size: 1em;
@@ -31,13 +32,13 @@
     --md-space: 40px;
     --lg-space: 65px;
 
-    --transition-time: 0.5s ease;
+    --transition-time: 0.75s ease;
 }
 
 h1 {
     font-family: var(--heading-font);
     font-size: var(--h1-size) !important;
-    font-weight: 800 !important;
+    font-weight: var(--xbold) !important;
 }
 
 p, a, li {
@@ -67,9 +68,20 @@ p, a, li {
     color: white;
     padding: var(--sm-space);
     transition: var(--transition-time);
+    font-weight: var(--mdbold);
 }
 
 #global-nav a:hover {
     background-color: var(--accent);
     color: black;
+}
+/*navigation end*/
+
+/*hero image*/
+#hero-banner {
+    background: var(--gradient);
+}
+
+#hero-img {
+    clip-path: circle(50%);
 }

@@ -4,19 +4,29 @@ import GlobalNav from "./components/nav";
 export default function Page() {
     return <>
         <div id="container">
-        <GlobalNav />
-            <div className="row">
-                <div className="col-md-10 offset-md-1">
-                    
 
-                    <h1>Welcome to my website!</h1>
-                    <p>This is a test to see whether I can make my way around this website with React</p>
+            <GlobalNav />
 
-                    <a className="btn btn-primary">Testing whether bootstrap is active</a>
+            <main>
+                <div className="row" id="hero-banner">
+                    <div className="col-md-5 offset-md-1">
+
+                    </div>
+                    <div className="col-md-5">
+                        <h1>welcome to my portfolio.</h1>
+                    </div>
                 </div>
-            </div>
+
+                <section>
+                    <div className="row">
+                        <div className="col-md-10 offset-md-1">
+
+                        </div>
+                    </div>
+                </section>
+            </main>
         </div>
-    
-    
+
+
     </>
-  }
+}

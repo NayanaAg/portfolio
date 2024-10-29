@@ -81,7 +81,3 @@ p, a, li {
 #hero-banner {
     background: var(--gradient);
 }
-
-#hero-img {
-    clip-path: circle(50%);
-}

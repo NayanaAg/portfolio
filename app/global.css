@@ -7,31 +7,37 @@
 }
 
 :root {
+    /*colours*/
     --primary: #ACF0D1;
+    --primary-hover: #509777;
     --secondary: #ABF3EB;
     --accent: #D86354;
+    --accent-hover: #9F4A3E;
     --dark-bg: #00203F;
     --light-bg: #E7EDF3;
-
     --gradient: linear-gradient(to bottom right, var(--secondary), var(--primary));
 
+    /*typography*/
     --heading-font: "Eczar", serif;
     --body-font: "Noto Sans", sans-serif;
     --tag-font: "Space Grotesk", sans-serif;
 
     --h1-size: 4em;
-    --h2-size: 1.5em;
-    --h3-size: 1.2em;
+    --h2-size: 2.5em;
+    --h3-size: 1.5em;
     --body-size: 1em;
 
     --xbold: 800;
     --mdbold: 500;
 
+    /*spacing*/
     --xs-space: 10px;
     --sm-space: 25px;
     --md-space: 40px;
     --lg-space: 65px;
 
+    /*element styling*/
+    --btn-radius: 20px;
     --transition-time: 0.75s ease;
 }
 
@@ -41,9 +47,43 @@ h1 {
     font-weight: var(--xbold) !important;
 }
 
-p, a, li {
+h2 {
+    font-family: var(--heading-font);
+    font-size: var(--h2-size) !important;
+    font-weight: var(--xbold) !important;
+    margin-top: var(--md-space) !important;
+}
+
+p,
+a,
+li {
     font-family: var(--body-font);
     font-size: var(--body-size);
+}
+
+/*back to top buttons*/
+.btn-secondary {
+    padding: var(--xs-space) var(--sm-space) !important;
+    border-radius: var(--btn-radius) !important;
+}
+
+#btn-green {
+    background-color: var(--primary);
+    color: black;
+}
+
+#btn-green:hover {
+    background-color: var(--primary-hover);
+}
+
+#btn-blue {
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+#btn-blue:hover {
+    background-color: var(--light-bg);
+    color: black;
 }
 
 /*global navigation*/
@@ -53,12 +93,12 @@ p, a, li {
     margin: 0;
 }
 
-#global-nav > ul {
+#global-nav>ul {
     padding: var(--sm-space);
     margin: 0;
 }
 
-#global-nav > ul li {
+#global-nav>ul li {
     display: inline;
     margin: 0;
 }
@@ -75,6 +115,7 @@ p, a, li {
     background-color: var(--accent);
     color: black;
 }
+
 /*navigation end*/
 
 /*hero image*/
@@ -91,3 +132,32 @@ p, a, li {
     width: 100%;
     clip-path: inset(0% 0% 10% 25% round 50% 50% 0px 0px);
 }
+
+/*hero image end*/
+
+/*hobbies marquee*/
+.marquee-container {
+    background-color: var(--accent);
+    padding: var(--sm-space) 0;
+}
+
+.marquee-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.marquee-container ul li {
+    display: inline !important;
+    list-style-type: none;
+    padding-right: 15px;
+    font-family: var(--heading-font);
+    font-weight: var(--mdbold);
+    font-size: var(--h2-size) !important;
+}
+
+.marquee-container li::after {
+    padding-left: 15px;
+    content: "•"
+}
+
+/*marquee end*/

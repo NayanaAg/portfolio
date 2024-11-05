@@ -1,0 +1,26 @@
+.product-tile {
+    margin: var(--sm-space);
+    padding: 0;
+    background-color: white;
+    transition: var(--transition-time) ease;
+    border-radius: 10px;
+}
+
+.product-tile:hover {
+    box-shadow: var(--drop-shadow);
+    cursor: pointer;
+}
+
+.product-img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-tile h3 {
+    text-decoration: none;
+    color: black;
+    font-size: var(--h3-size);
+
+}

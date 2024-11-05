@@ -39,6 +39,7 @@
     /*element styling*/
     --btn-radius: 20px;
     --transition-time: 0.75s ease;
+    --drop-shadow: 5px 10px 7px #888888;
 }
 
 h1 {

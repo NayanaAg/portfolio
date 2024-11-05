@@ -1,4 +1,5 @@
 import React from "react";
+import "./projects.css";
 import GlobalNav from "../components/nav";
 import * as list from "./data.json";
 
@@ -25,28 +26,28 @@ export default function Page() {
                     </div>
                 </section>
 
+                <div className="row row-cols-4 align-items-center flex-row">
 
+                    {list.map((item, li) => {
 
-                {list.map((item, li) => {
+                        return <>
 
-                    return <>
-
-                        <div className="col">
-                            <div className="p-0">
-                                <a href="/folktales">
-                                    <img src=""
-                                        alt=""/>
-                                    <div className="product-content">
-                                        <h3>{item.name}</h3>
-                                        <p>{item.date}</p>
-                                    </div>
-                                </a>
+                            <div className="col">
+                                <div className="product-tile p-0">
+                                    <a href="/folktales">
+                                        <img className="product-img" src="images/hero-banner.jpg"
+                                            alt="penguins enjoying winter notepad art" />
+                                        <div className="product-content">
+                                            <h3>{item.name}</h3>
+                                            <p>{item.date}</p>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                        </>
 
-                    </>
-
-                })}
+                    })}
+                </div>
 
             </main >
         </div>

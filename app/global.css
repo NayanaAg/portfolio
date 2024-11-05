@@ -152,7 +152,7 @@ li {
     padding-right: 15px;
     font-family: var(--heading-font);
     font-weight: var(--mdbold);
-    font-size: var(--h2-size) !important;
+    font-size: var(--h3-size) !important;
 }
 
 .marquee-container li::after {

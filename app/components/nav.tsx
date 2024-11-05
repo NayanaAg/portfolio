@@ -8,7 +8,7 @@ export default function GlobalNav() {
                     <div id="global-nav">
                         <ul>
                             <li><a href="/">home</a></li>
-                            <li><a href="/projects">my work</a></li>
+                            <li><a href="/projects">projects</a></li>
                             <li><a href="/hobbies">hobbies</a></li>
                             <li><a href="/contact">contact</a></li>
                             <li><a href="#">resume</a></li>

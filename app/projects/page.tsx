@@ -32,13 +32,13 @@ export default function Page() {
                     return <>
 
                         <div className="col">
-                            <div className="product-tile p-0">
-                                <a href="page/product-page/sticker.html">
-                                    <img className="product-img" src="img/st-stuffers/sticker.webp"
-                                        alt="sticker sheet with various winter art" />
+                            <div className="p-0">
+                                <a href="/folktales">
+                                    <img src=""
+                                        alt=""/>
                                     <div className="product-content">
-                                        <h3>                        {item.name}                                    </h3>
-                                        <p className="pricetag">$6.91</p>
+                                        <h3>{item.name}</h3>
+                                        <p>{item.date}</p>
                                     </div>
                                 </a>
                             </div>

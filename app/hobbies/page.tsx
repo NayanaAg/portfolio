@@ -17,9 +17,9 @@ export default function Page() {
                     </div>
                 </div>
 
-                <section className="marquee-container">
+                <section className="marquee-container mt-5">
                     <div className="row">
-                        <div className="col-12 g-0 m-0 mt-5">
+                        <div className="col-12 g-0 m-0">
                             <Marquee direction="left" pauseOnHover>
                                 <ul>
                                     <li>reading</li>

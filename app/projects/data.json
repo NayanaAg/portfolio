@@ -1,22 +1,37 @@
 [
     {
-        "name": "Lorem ipsum",
-        "year": 2024,
-        "tag" : "ux, design, e-commerce"
+        "name": "Folktales of the world",
+        "date": "Jun 2018",
+        "tag" : "print media design, writing & editing, leadership"
     },
     {
-        "name": "Hello world",
-        "year": 2024,
-        "tag" : "ux, design, e-commerce"
+        "name": "Soup Night microsite",
+        "date": "Sept 2024",
+        "tag" : "HTML & CSS, UX design"
     },
     {
-        "name": "Quick brown fox",
-        "year": 2024,
-        "tag" : "ux, design, e-commerce"
+        "name": "Egguino Christmas rebrand",
+        "date": "Oct 2024",
+        "tag" : "HTML & CSS, UX design"
     },
     {
-        "name": "Quick brown fox",
-        "year": 2024,
-        "tag" : "ux, design, e-commerce"
+        "name": "Toronto Overdrive Redesign",
+        "date": "Nov 2024",
+        "tag" : "UX Design, Canva & Figma"
+    },
+    {
+        "name": "Personal Portfolio",
+        "date": "Dec 2024",
+        "tag" : "React & Typscript, Canva & Figma, UX Design"
+    },
+    {
+        "name": "Zucora landing pages",
+        "date": "Jun 2024",
+        "tag" : "UX Design, Canva & Figma"
+    },
+    {
+        "name": "Zucora BC Campaign",
+        "date": "Sep 2024",
+        "tag" : "UX Design, Canva & Figma"
     }
 ]

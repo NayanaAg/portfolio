@@ -22,7 +22,16 @@ export default function Page() {
                 <section>
                     <div className="row">
                         <div className="col-md-10 offset-md-1">
+                            {/*skill buttons for search and filter would go here*/} 
+                        </div>
+                    </div>
+                </section>
 
+                <section>
+                    <div className="row">
+                        <div className="col-md-10 offset-md-1">
+                            <h2>Featured project: Folktales of the World</h2>
+                            {/*featured project carousel goes here*/} 
                         </div>
                     </div>
                 </section>

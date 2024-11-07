@@ -59,11 +59,45 @@ export default function Page() {
                             <p>Here are the four main hobbies I'm obsessed with right now. Not only are they ways for me to give my friends cute gifts and experiences, they also help me unwind after a long day of work and classes.</p>
                         </div>
                     </div>
+
+                    <div className="row row-cols-4 align-items-center flex-row">
+                        <div className="col">
+                            <div className="hobby-tile">
+                                <img src=".../public/images/hero-banner.jpg"/>
+                                <h3>knitting</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                            </div>
+                        </div>
+
+                        <div className="col">
+                            <div className="hobby-tile">
+                                <img src=".../public/images/hero-banner.jpg"/>
+                                <h3>knitting</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                            </div>
+                        </div>
+
+                        <div className="col">
+                            <div className="hobby-tile">
+                                <img src=".../public/images/hero-banner.jpg"/>
+                                <h3>knitting</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                            </div>
+                        </div>
+
+                        <div className="col">
+                            <div className="hobby-tile">
+                                <img src=".../public/images/hero-banner.jpg"/>
+                                <h3>knitting</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section>
                     <div className="row">
-                        <div className="col-md-10 offset-md-1 text-center">
+                        <div className="col-md-8 offset-md-2 text-center">
                             <h2>fun projects</h2>
                             <p>I've handpicked some projects out of my portfolio that are fun, silly, and express my personality well. As you can probably tell by now, I'm a very high-effort person (yes, that means I do make spreadsheets for potlucks and group vacations, force my friends to fill out Google Forms for my planning, and write journal entries after each trip to rate my overall experience. Juuust a little bit over-the-top!)</p>
                         </div>

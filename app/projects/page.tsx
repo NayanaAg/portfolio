@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import GlobalNav from "../components/nav";
+import TopButton from "../components/top-btn";
 import * as list from "./data.json";
 
 export default function Page() {
@@ -9,6 +10,7 @@ export default function Page() {
         <div id="container">
 
             <GlobalNav />
+            <TopButton version="btn-blue"/>
 
             <main>
                 <div className="row">

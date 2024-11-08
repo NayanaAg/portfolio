@@ -23,7 +23,7 @@ export default function Page() {
 
                 <div className="row">
                     <div className="col-md-10 offset-md-1">
-                        <SkillButton />
+                        <SkillButton skillName="UX Design" />
                     </div>
                 </div>
 

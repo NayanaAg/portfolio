@@ -88,6 +88,17 @@ li {
     color: black;
 }
 
+/*skill buttons*/
+.btn-primary {
+    padding: var(--xs-space) var(--sm-space) !important;
+    margin: var(--xs-space);
+    transition: var(--transition-time) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent) !important;
+}
+
 /*global navigation*/
 #global-nav {
     background-color: var(--dark-bg);

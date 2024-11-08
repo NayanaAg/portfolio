@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
+import SkillButton from "../components/skill-btns";
 import * as list from "./data.json";
 
 export default function Page() {
@@ -17,6 +18,12 @@ export default function Page() {
                     <div className="col-lg-8 offset-lg-2 text-center">
                         <h1>my projects</h1>
                         <p>Looking through people’s portfolios can be overwhelming, especially when they’re like mine -- chaotic, colourful, and very diverse. I decided to sort through the content on this website and categorize it by relevant skills which you, as an employer, may be looking for. Click on any of the buttons below to filter my projects. Or, if you’re just here to browse, scroll through all the projects below at your own leisure :)</p>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-md-10 offset-md-1">
+                        <SkillButton />
                     </div>
                 </div>
 

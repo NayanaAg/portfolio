@@ -14,6 +14,8 @@ const allSkills = [
     "Marketing"
 ]
 
+
+
 export default function SkillButton() {
     const skillList = allSkills.map(skillName =>
         <a href="#" className="btn btn-primary" style={{
@@ -23,6 +25,16 @@ export default function SkillButton() {
             borderRadius: "var(--btn-radius)"
         }}>{skillName}</a>
     );
+
+    // code: for each "skillname", search the project array
+    // in the project array, check the "tag" for each project
+    // if the tag has the "skillname" in it, show it when the button is clicked
+
+    list.forEach(skillName => {
+        list.filter(item =>
+            item.tag === "skillName"
+        );
+    })
 
     return <>
         <div className="skill-btn">{skillList}</div>;

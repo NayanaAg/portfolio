@@ -1,4 +1,5 @@
 import React from "react";
+import * as list from "../projects/data.json";
 
 const allSkills = [
     "HTML & CSS",
@@ -22,6 +23,9 @@ export default function SkillButton() {
             borderRadius: "var(--btn-radius)"
         }}>{skillName}</a>
     );
-    return <div className="skill-btn">{skillList}</div>;
-  }
+
+    return <>
+        <div className="skill-btn">{skillList}</div>;
+    </>
+}
 

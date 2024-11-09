@@ -24,17 +24,18 @@
 
     --h1-size: 4em;
     --h2-size: 2.5em;
-    --h3-size: 1.5em;
+    --h3-size: 1.2em;
     --body-size: 1em;
 
     --xbold: 800;
     --mdbold: 500;
 
     /*spacing*/
-    --xs-space: 10px;
-    --sm-space: 25px;
-    --md-space: 40px;
-    --lg-space: 65px;
+    --xs-space: 1em;
+    --sm-space: 1.25em;
+    --md-space: 1.5em;
+    --lg-space: 2em;
+    --xl-space: 3em;
 
     /*element styling*/
     --btn-radius: 20px;
@@ -172,5 +173,20 @@ li {
     padding-left: 15px;
     content: "•"
 }
-
 /*marquee end*/
+
+/*contact form*/
+#contact-form {
+    background-color: white;
+    padding: var(--lg-space);
+    margin: var(--xl-space);
+    border-radius: 20px;
+}
+
+#contact-form input {
+    border: 2px solid var(--light-bg);
+}
+
+#contact-form label {
+    margin-top: var(--sm-space);
+}

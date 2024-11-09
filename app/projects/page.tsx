@@ -22,7 +22,7 @@ export default function Page() {
                 </div>
 
                 <div className="row">
-                    <div className="col-md-6 offset-md-3 text-center">
+                    <div className="col-md-8 offset-md-2 text-center">
                         <SkillButton />
                     </div>
                 </div>
@@ -46,7 +46,7 @@ export default function Page() {
                                     <a href="/folktales">
                                         <img className="product-img" src="images/hero-banner.jpg"
                                             alt="penguins enjoying winter notepad art" />
-                                        <div className="product-content">
+                                        <div className="product-content d-flex flex-row justify-content-between">
                                             <h3>{item.name}</h3>
                                             <p>{item.date}</p>
                                         </div>

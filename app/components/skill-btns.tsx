@@ -15,7 +15,6 @@ const allSkills = [
 ]
 
 
-
 export default function SkillButton() {
     const skillList = allSkills.map(skillName =>
         <a href="#" className="btn btn-primary" style={{
@@ -35,6 +34,14 @@ export default function SkillButton() {
             item.tag === "skillName"
         );
     })
+
+    {list.filter((item, li) => {
+        
+        item.tag === "UX Design"
+
+        return item.name
+    }
+    )}
 
     return <>
         <div className="skill-btn">{skillList}</div>;

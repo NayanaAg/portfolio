@@ -190,3 +190,12 @@ li {
 #contact-form label {
     margin-top: var(--sm-space);
 }
+
+#submit-btn {
+    width: 100%;
+    background-color: var(--accent);
+    color: black;
+    border: none;
+    margin: var(--sm-space) 0;
+    padding: 0;
+}

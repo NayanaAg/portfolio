@@ -29,10 +29,10 @@ export default function Page() {
 
                         <div className="form-group">
                             <label htmlFor="message">Put any questions and comments here!</label>
-                            <textarea className="form-control" id="message" rows="8"></textarea>
+                            <textarea className="form-control" id="message"></textarea>
                         </div>
 
-                        <button type="submit" className="btn btn-primary">Send</button>
+                        <button type="submit" className="btn btn-primary" id="submit-btn">Send</button>
 
                     </form>
                 </div>

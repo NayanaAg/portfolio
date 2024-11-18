@@ -43,7 +43,7 @@ export default function Page() {
 
                             <div className="col">
                                 <div className="product-tile p-0">
-                                    <a href="/folktales">
+                                    <a href="folktales">
                                         <img className="product-img" src="images/hero-banner.jpg"
                                             alt="penguins enjoying winter notepad art" />
                                         <div className="product-content d-flex flex-row justify-content-between">

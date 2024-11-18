@@ -18,13 +18,15 @@ export default function Page() {
             </>
         })}
 
-        {array.filter((item, li) => {
-            item.tag === "leadership"
-            return <>
-                <h3>{item.name}</h3>
-                <h3>{item.date}</h3>
-            </>
-        })}
+        export default function filterSkill (list) {
+            array.forEach(project => {
+                array.filter(project.tag: "UX Design");
+
+                return <>
+                console.log(`project name ${item.name}`)
+                </>
+            })
+        }
 
 
     </>

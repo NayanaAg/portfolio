@@ -2,31 +2,25 @@ import React from "react";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
 import SkillButton from "../components/skill-btns";
-import * as array from "../projects/data.json";
+import * as projectList from "../projects/data.json";
 
 
 export default function Page() {
     return <>
 
-        {array.map((item, li) => {
+        {projectList.map((project, li) => {
 
             return <>
                 <div>
-                    <h3>{item.name}</h3>
-                    <p>{item.date}</p>
+                    <h3>{project.name}</h3>
+                    <p>{project.date}</p>
                 </div>
             </>
         })}
 
-        export default function filterSkill (list) {
-            array.forEach(project => {
-                array.filter(project.tag: "UX Design");
-
-                return <>
-                console.log(`project name ${item.name}`)
-                </>
-            })
-        }
+        {projectList.filter(project => 
+            project.tag === "UX Design"
+        )}
 
 
     </>

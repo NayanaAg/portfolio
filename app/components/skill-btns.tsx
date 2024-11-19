@@ -1,4 +1,5 @@
 import React from "react";
+import "../projects/filter.js";
 import * as list from "../projects/data.json";
 
 const allSkills = [
@@ -17,7 +18,7 @@ const allSkills = [
 
 export default function SkillButton() {
     const skillList = allSkills.map(skillName =>
-        <a href="#" className="btn btn-primary" style={{
+        <a href="#" className="btn btn-primary" id="skillName" onClick= "filterBySkill()" style={{
             border: "var(--btn-outline)",
             backgroundColor: "#fff",
             color: "#000",
@@ -28,20 +29,6 @@ export default function SkillButton() {
     // code: for each "skillname", search the project array
     // in the project array, check the "tag" for each project
     // if the tag has the "skillname" in it, show it when the button is clicked
-
-    list.forEach(skillName => {
-        list.filter(item =>
-            item.tag === "skillName"
-        );
-    })
-
-    {list.filter((item, li) => {
-        
-        item.tag === "UX Design"
-
-        return item.name
-    }
-    )}
 
     return <>
         <div className="skill-btn">{skillList}</div>;

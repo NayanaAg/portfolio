@@ -1,9 +1,10 @@
 import React from "react";
 import "./projects.css";
+import "./filter.js";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
 import SkillButton from "../components/skill-btns";
-import * as list from "./data.json";
+import * as projectList from "./data.json";
 
 export default function Page() {
     return <>
@@ -11,7 +12,7 @@ export default function Page() {
         <div id="container">
 
             <GlobalNav />
-            <TopButton version="btn-blue"/>
+            <TopButton version="btn-blue" />
 
             <main>
                 <div className="row">
@@ -37,7 +38,7 @@ export default function Page() {
 
                 <div className="row row-cols-4 align-items-center flex-row">
 
-                    {list.map((item, li) => {
+                    {projectList.map((project, li) => {
 
                         return <>
 
@@ -47,8 +48,8 @@ export default function Page() {
                                         <img className="product-img" src="images/hero-banner.jpg"
                                             alt="penguins enjoying winter notepad art" />
                                         <div className="product-content d-flex flex-row justify-content-between">
-                                            <h3>{item.name}</h3>
-                                            <p>{item.date}</p>
+                                            <h3>{project.name}</h3>
+                                            <p>{project.date}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -56,6 +57,7 @@ export default function Page() {
                         </>
 
                     })}
+                    
 
 
                 </div>

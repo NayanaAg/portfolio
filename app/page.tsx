@@ -9,12 +9,12 @@ export default function Page() {
 
             <main>
                 <div className="row d-flex" id="hero-banner">
-                    <div className="col-md-5 offset-md-1">
+                    <div className="col-md-4 offset-md-2 justify-self-end">
                         <span id="hero-img">
                             <img src="images/hero-banner.jpg" alt="picture of me" />
                         </span>
                     </div>
-                    <div className="col-md-5 ms-5 align-self-center">
+                    <div className="col-md-6 align-self-center">
                         <h1>welcome to my portfolio.</h1>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import GlobalNav from "./components/nav";
+import Marquee from "react-fast-marquee";
 
 export default function Page() {
     return <>
@@ -21,8 +22,12 @@ export default function Page() {
 
                 <section>
                     <div className="row">
-                        <div className="col-md-10 offset-md-1">
-                            {/*skill buttons for search and filter would go here*/} 
+                        <div className="col-12 g-0 m-0">
+                            <Marquee direction="left">
+                                <div>
+                                    
+                                </div>
+                            </Marquee>
                         </div>
                     </div>
                 </section>
@@ -31,7 +36,7 @@ export default function Page() {
                     <div className="row">
                         <div className="col-md-10 offset-md-1">
                             <h2>Featured project: Folktales of the World</h2>
-                            {/*featured project carousel goes here*/} 
+                            {/*featured project carousel goes here*/}
                         </div>
                     </div>
                 </section>

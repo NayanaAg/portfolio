@@ -1,18 +1,34 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import "./projects.css";
 import "./filter.js";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
-import SkillButton from "../components/skill-btns";
 import * as projectList from "./data.json";
 
 export default function Page() {
+
+    const allSkills = [
+        "HTML & CSS",
+        "UX Design",
+        "React & Typescript",
+        "Print media design",
+        "Canva & Figma",
+        "Adobe Suite",
+        "Social Media",
+        "Writing & Editing",
+        "Leadership",
+        "Marketing",
+    ]
+    const [filter, setFilter] = useState(allSkills[0]);
+
     return <>
 
         <div id="container">
 
             <GlobalNav />
             <TopButton version="btn-blue" />
+
 
             <main>
                 <div className="row">
@@ -24,14 +40,30 @@ export default function Page() {
 
                 <div className="row">
                     <div className="col-md-8 offset-md-2 text-center">
-                        <SkillButton />
+
+                        {allSkills.map(skillName =>
+                            <a href="#" className={"btn btn-primary "+(skillName === filter ? "fw-bold": "")} id="skillName" onClick={(e) => {
+                                setFilter(skillName)
+                            }} style={{
+                                border: "var(--btn-outline)",
+                                backgroundColor: "#fff",
+                                color: "#000",
+                                borderRadius: "var(--btn-radius)"
+                            }}>{skillName}</a>
+                        )}
+
+
+                        <a href="#" onClick={(e) => {
+                            setFilter("");
+                        }}>Clear all</a>
+
                     </div>
                 </div>
 
                 <section id="project-container">
                     <div className="row">
                         <div className="col-md-10 offset-md-1 text-center">
-                            <h2>all professional projects</h2>
+                            <h2> professional projects: {filter}</h2>
                         </div>
                     </div>
                 </section>
@@ -39,6 +71,10 @@ export default function Page() {
                 <div className="row row-cols-4 align-items-center flex-row">
 
                     {projectList.map((project, li) => {
+
+                        if (project.tag.indexOf(filter) === -1) {
+                            return <></>
+                        }
 
                         return <>
 
@@ -57,7 +93,7 @@ export default function Page() {
                         </>
 
                     })}
-                    
+
 
 
                 </div>

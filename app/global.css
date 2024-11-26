@@ -150,17 +150,17 @@ li {
 /*hero image end*/
 
 /*hobbies marquee*/
-.marquee-container {
+#hobbies-container {
     background-color: var(--accent);
     padding: var(--sm-space) 0;
 }
 
-.marquee-container ul {
+#hobbies-container ul {
     margin: 0;
     padding: 0;
 }
 
-.marquee-container ul li {
+#hobbies-container ul li {
     display: inline !important;
     list-style-type: none;
     padding-right: 15px;
@@ -169,7 +169,7 @@ li {
     font-size: var(--h3-size) !important;
 }
 
-.marquee-container li::after {
+#hobbies-container li::after {
     padding-left: 15px;
     content: "•"
 }

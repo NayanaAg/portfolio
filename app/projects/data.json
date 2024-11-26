@@ -3,42 +3,48 @@
         "id": 0,
         "name": "Folktales of the world",
         "date": "Jun 2018",
-        "tag" : "print media design, writing & editing, leadership"
+        "tag": "print media design, writing & editing, leadership"
     },
     {
         "id": 1,
         "name": "Soup Night microsite",
         "date": "Sept 2024",
-        "tag" : "HTML & CSS, UX design"
+        "tag": "HTML & CSS, UX design"
     },
     {
         "id": 2,
         "name": "Egguino Christmas rebrand",
         "date": "Oct 2024",
-        "tag" : "HTML & CSS, UX design"
+        "tag": "HTML & CSS, UX design"
     },
     {
         "id": 3,
         "name": "Toronto Overdrive Redesign",
         "date": "Nov 2024",
-        "tag" : "UX Design, Canva & Figma"
+        "tag": "UX Design, Canva & Figma"
     },
     {
         "id": 4,
         "name": "Personal Portfolio",
         "date": "Dec 2024",
-        "tag" : "React & Typscript, Canva & Figma, UX Design"
+        "tag": "React & Typscript, Canva & Figma, UX Design"
     },
     {
         "id": 5,
         "name": "Zucora landing pages",
         "date": "Jun 2024",
-        "tag" : "UX Design, Canva & Figma"
+        "tag": "UX Design, Canva & Figma"
     },
     {
         "id": 6,
         "name": "Zucora BC Campaign",
         "date": "Sep 2024",
-        "tag" : "UX Design, Canva & Figma"
+        "tag": "UX Design, Canva & Figma"
+    },
+    {
+        "id": 7,
+        "name": "Speculative Climate App Design",
+        "date": "Dec 2024",
+        "tag": "UX Design, Canva & Figma"
     }
 ]

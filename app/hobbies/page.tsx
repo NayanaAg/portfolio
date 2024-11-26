@@ -17,7 +17,7 @@ export default function Page() {
                     </div>
                 </div>
 
-                <section id="hobbies-container mt-5">
+                <section className="hobbies-container mt-5">
                     <div className="row">
                         <div className="col-12 g-0 m-0">
                             <Marquee direction="left" pauseOnHover>

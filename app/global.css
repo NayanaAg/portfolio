@@ -64,6 +64,10 @@ li {
     font-size: var(--body-size);
 }
 
+a {
+    font-weight: var(--mdbold) !important;
+}
+
 /*back to top buttons*/
 .btn-secondary {
     padding: var(--xs-space) var(--sm-space) !important;
@@ -93,7 +97,11 @@ li {
 .btn-primary {
     padding: var(--xs-space) var(--sm-space) !important;
     margin: var(--xs-space);
-    transition: var(--transition-time) !important;
+    transition: background-color var(--transition-time) !important;
+}
+
+.btn-focus {
+    background-color: var(--accent) !important;
 }
 
 .btn-primary:hover {
@@ -149,18 +157,28 @@ li {
 
 /*hero image end*/
 
+/*homepage marquee*/
+.marquee-skill {
+    margin: var(--sm-space) var(--md-space);
+}
+
+.marquee-skill img {
+    width: 50px;
+}
+
+
 /*hobbies marquee*/
-#hobbies-container {
+.hobbies-container {
     background-color: var(--accent);
     padding: var(--sm-space) 0;
 }
 
-#hobbies-container ul {
+.hobbies-container ul {
     margin: 0;
     padding: 0;
 }
 
-#hobbies-container ul li {
+.hobbies-container ul li {
     display: inline !important;
     list-style-type: none;
     padding-right: 15px;
@@ -169,7 +187,7 @@ li {
     font-size: var(--h3-size) !important;
 }
 
-#hobbies-container li::after {
+.hobbies-container li::after {
     padding-left: 15px;
     content: "•"
 }

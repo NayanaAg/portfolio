@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Folktales of the world",
         "date": "Jun 2018",
-        "page": "../projects/folktales",
+        "page": "/projects/folktales",
         "alt": "front cover of published folktales book with art montage on front",
         "tag": "print media design, writing & editing, leadership"
     },
@@ -11,7 +11,8 @@
         "id": 1,
         "name": "Soup Night microsite",
         "date": "Sept 2024",
-        "page": "../projects/soup-night",
+        "page": "/projects/soup-night",
+        "alt": "art of several bowls of soup",
         "tag": "HTML & CSS, UX design"
     },
     {
@@ -19,6 +20,7 @@
         "name": "Egguino Christmas rebrand",
         "date": "Oct 2024",
         "page": "projects/egguino-rebrand",
+        "alt": "penguin enjoying snow outside",
         "tag": "HTML & CSS, UX design"
     },
     {
@@ -26,6 +28,7 @@
         "name": "Toronto Overdrive Redesign",
         "date": "Nov 2024",
         "page": "projects/overdrive-redesign",
+        "alt": "homepage redesign for toronto public library",
         "tag": "UX Design, Canva & Figma"
     },
     {
@@ -33,6 +36,7 @@
         "name": "Personal Portfolio",
         "date": "Dec 2024",
         "page": "projects/portfolio-process",
+        "alt": "stylized picture of me from homepage of this website",
         "tag": "React & Typscript, Canva & Figma, UX Design"
     },
     {
@@ -40,6 +44,7 @@
         "name": "Zucora landing pages",
         "date": "Jun 2024",
         "page": "projects/landing-pages",
+        "alt": "zucora logo and banner",
         "tag": "UX Design, Canva & Figma"
     },
     {
@@ -47,6 +52,7 @@
         "name": "Zucora BC Campaign",
         "date": "Sep 2024",
         "page": "projects/ad-campaign",
+        "alt":"advertisement for SmartOne Zucora",
         "tag": "UX Design, Canva & Figma"
     },
     {
@@ -54,6 +60,7 @@
         "name": "Speculative Climate App Design",
         "date": "Dec 2024",
         "page": "projects/climate-app",
+        "alt": "penguins in the snow",
         "tag": "UX Design, Canva & Figma"
     }
 ]

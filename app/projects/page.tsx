@@ -21,7 +21,7 @@ export default function Page() {
         "Marketing",
     ];
 
-    const [filter, setFilter] = useState(allSkills[0]);
+    const [filter, setFilter] = useState("");
 
     return <>
         <div id="container">
@@ -78,7 +78,7 @@ export default function Page() {
                         return <>
 
                             <div className="col">
-                                <div className="product-tile p-0">
+                                <div key={project.id} className="product-tile p-0">
                                     <a href={project.page}>
                                         <img className="product-img" src="./images/hero-banner.jpg"
                                             alt={project.alt} />

@@ -24,12 +24,10 @@ export default function Page() {
     const [filter, setFilter] = useState(allSkills[0]);
 
     return <>
-
         <div id="container">
 
             <GlobalNav />
             <TopButton version="btn-blue" />
-
 
             <main>
                 <div className="row">
@@ -83,7 +81,7 @@ export default function Page() {
                                 <div className="product-tile p-0">
                                     <a href={project.page}>
                                         <img className="product-img" src="./images/hero-banner.jpg"
-                                            alt="" />
+                                            alt={project.alt} />
                                         <div className="product-content d-flex flex-row justify-content-between">
                                             <h3>{project.name}</h3>
                                             <p>{project.date}</p>
@@ -94,11 +92,7 @@ export default function Page() {
                         </>
 
                     })}
-
-
-
                 </div>
-
             </main >
         </div>
     </>

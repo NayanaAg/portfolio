@@ -32,22 +32,22 @@ export default function Page() {
 
                                 <div className = "marquee-skill">
                                     <img src="images/icons/react.png" />
-                                    <p>HTML 5</p>
+                                    <p>React</p>
                                 </div>
 
                                 <div className = "marquee-skill">
                                     <img src="images/icons/illustrator.png" />
-                                    <p>HTML 5</p>
+                                    <p>Adobe Illustrator</p>
                                 </div>
 
                                 <div className = "marquee-skill">
                                     <img src="images/icons/photoshop.png" />
-                                    <p>HTML 5</p>
+                                    <p>Adobe Photoshop</p>
                                 </div>
 
                                 <div className = "marquee-skill">
                                     <img src="images/icons/indesign.png" />
-                                    <p>HTML 5</p>
+                                    <p>Adobe Indesign</p>
                                 </div>
                             </Marquee>
                         </div>

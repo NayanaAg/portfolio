@@ -95,8 +95,8 @@ a {
 
 /*skill buttons*/
 .btn-primary {
-    padding: var(--xs-space) var(--sm-space) !important;
-    margin: var(--xs-space);
+    padding: 0.5em var(--sm-space) !important;
+    margin: 0.5em;
     transition: background-color var(--transition-time) !important;
 }
 

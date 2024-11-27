@@ -62,7 +62,7 @@ export default function Page() {
                 <section id="project-container">
                     <div className="row">
                         <div className="col-md-10 offset-md-1 text-center">
-                            <h2>professional projects{filter}</h2>
+                            <h2 id="filter-title">{filter}</h2>
                         </div>
                     </div>
                 </section>

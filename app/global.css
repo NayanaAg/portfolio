@@ -237,15 +237,17 @@ a {
     width: 20px;
   }
 
-  #testimonial-bg {
+ .carousel-inner {
     box-shadow: var(--drop-shadow);
     background-color: white !important;
     text-align: center;
+    border: 1px ridge var(--light-bg);
     border-radius: 10px;     
   }
 
   blockquote {
     width: 80%;
-    margin: 0 auto !important
+    margin: 0 auto !important;
+    padding: var(--md-space) var(--sm-space);
 }
   

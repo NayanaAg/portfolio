@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Folktales of the world",
         "date": "Jun 2018",
-        "page": "projects/folktales",
+        "page": "../projects/folktales",
         "alt": "front cover of published folktales book with art montage on front",
         "tag": "print media design, writing & editing, leadership"
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "name": "Soup Night microsite",
         "date": "Sept 2024",
-        "page": "projects/soup-night",
+        "page": "../projects/soup-night",
         "tag": "HTML & CSS, UX design"
     },
     {

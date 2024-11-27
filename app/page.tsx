@@ -57,8 +57,7 @@ export default function Page() {
                 <section>
                     <div className="row">
                         <div className="col-md-10 offset-md-1">
-                            <h2>Featured project: Folktales of the World</h2>
-                            {/*featured project carousel goes here*/}
+                            <h2>Case studies</h2>
                         </div>
                     </div>
                 </section>

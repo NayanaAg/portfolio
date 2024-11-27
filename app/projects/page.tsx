@@ -1,9 +1,10 @@
 "use client";
+
 import React, { useState } from "react";
 import "./projects.css";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
-import * as projectList from "./data.json";
+import * as ProjectList from "./data.json";
 
 export default function Page() {
 
@@ -18,7 +19,8 @@ export default function Page() {
         "Writing & Editing",
         "Leadership",
         "Marketing",
-    ]
+    ];
+
     const [filter, setFilter] = useState(allSkills[0]);
 
     return <>
@@ -41,12 +43,12 @@ export default function Page() {
                     <div className="col-md-8 offset-md-2 text-center">
 
                         {allSkills.map(skillName =>
-                            <a href="#" className={"btn btn-primary "+(skillName === filter ? "btn-focus": "")} id="skillName" onClick={(e) => {
+                            <a href="#" className={"btn btn-primary "+ (skillName === filter ? "btn-focus": "")} id="skillName" onClick={(e) => {
                                 setFilter(skillName)
                             }} style={{
                                 border: "var(--btn-outline)",
-                                backgroundColor: "#fff",
-                                color: "#000",
+                                backgroundColor: "#ffffff",
+                                color: "#000000",
                                 borderRadius: "var(--btn-radius)"
                             }}>{skillName}</a>
                         )}
@@ -69,7 +71,7 @@ export default function Page() {
 
                 <div className="row row-cols-4 align-items-center flex-row">
 
-                    {projectList.map((project, li) => {
+                    {ProjectList.map((project, li) => {
 
                         if (project.tag.indexOf(filter) === -1) {
                             return <></>
@@ -79,9 +81,9 @@ export default function Page() {
 
                             <div className="col">
                                 <div className="product-tile p-0">
-                                    <a href="folktales">
-                                        <img className="product-img" src="images/hero-banner.jpg"
-                                            alt="penguins enjoying winter notepad art" />
+                                    <a href={project.page}>
+                                        <img className="product-img" src="./images/hero-banner.jpg"
+                                            alt="" />
                                         <div className="product-content d-flex flex-row justify-content-between">
                                             <h3>{project.name}</h3>
                                             <p>{project.date}</p>

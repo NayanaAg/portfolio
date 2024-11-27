@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "./projects.css";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
-import * as ProjectList from "./data.json";
+import ProjectList from "./data.json";
 
 export default function Page() {
 
@@ -62,7 +62,7 @@ export default function Page() {
                 <section id="project-container">
                     <div className="row">
                         <div className="col-md-10 offset-md-1 text-center">
-                            <h2> professional projects: {filter}</h2>
+                            <h2>professional projects{filter}</h2>
                         </div>
                     </div>
                 </section>

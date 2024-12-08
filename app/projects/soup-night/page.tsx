@@ -10,7 +10,17 @@ export default function Page() {
             <TopButton version="btn-green" />
 
             <main>
-                
+                <div className="row">
+                    <div className="col-8 offset-2 text-center">
+                        <h1 className="h1-spacer">Soup Night event website</h1>
+                        <strong>Designer, content writer, developer</strong>
+                    </div>
+                </div>
+
+                <section>
+                    {/*The images for this project will go here*/}
+                    <p>Caption for the images / carousel will go here</p>
+                </section>
             </main>
 
         </div>

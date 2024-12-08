@@ -50,11 +50,21 @@ h1 {
     font-weight: var(--xbold) !important;
 }
 
+.h1-spacer {
+    margin-top: var(--md-space);
+}
+
 h2 {
     font-family: var(--heading-font);
     font-size: var(--h2-size) !important;
     font-weight: var(--xbold) !important;
     margin-top: var(--md-space) !important;
+}
+
+h3 {
+    color:var(--accent) !important;
+    font-weight: 600 !important;
+    font-family: var(--heading-font);
 }
 
 p,
@@ -258,11 +268,11 @@ a {
 
 /*hobbies page*/
 .hobby-image {
-    height: 300px;
+    width: 85%;
     object-fit: contain;
     object-position: left;
 }
 
 .hobby-content {
-    width: 80%;
+    margin: var(--sm-space) var(--lg-space);
 }

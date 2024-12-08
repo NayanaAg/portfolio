@@ -24,8 +24,7 @@ export default function Page() {
 
                 <section>
                     <div className="row">
-                        <div className="col-12 g-0 m-0">
-                            <Marquee direction="left">
+                        <div className="col-12 text-center g-0 m-0">
                                 <div className="marquee-skill">
                                     <img src="images/icons/html.png" />
                                     <p>HTML 5</p>
@@ -37,20 +36,49 @@ export default function Page() {
                                 </div>
 
                                 <div className="marquee-skill">
+                                    <img src="images/icons/github.png" />
+                                    <p>Canva</p>
+                                </div>
+
+                                <div className="marquee-skill">
                                     <img src="images/icons/illustrator.png" />
-                                    <p>Adobe Illustrator</p>
+                                    <p>Illustrator</p>
                                 </div>
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/photoshop.png" />
-                                    <p>Adobe Photoshop</p>
+                                    <p>Photoshop</p>
                                 </div>
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/indesign.png" />
-                                    <p>Adobe Indesign</p>
+                                    <p>InDesign</p>
                                 </div>
-                            </Marquee>
+
+                                <div className="marquee-skill">
+                                    <img src="images/icons/canva.png" />
+                                    <p>Canva</p>
+                                </div>
+
+                                <div className="marquee-skill">
+                                    <img src="images/icons/figma.png" />
+                                    <p>Canva</p>
+                                </div>
+
+                                <div className="marquee-skill">
+                                    <img src="images/icons/excel.png" />
+                                    <p>Canva</p>
+                                </div>
+
+                                <div className="marquee-skill">
+                                    <img src="images/icons/jira.png" />
+                                    <p>Canva</p>
+                                </div>
+
+                                <div className="marquee-skill">
+                                    <img src="images/icons/slack.png" />
+                                    <p>Canva</p>
+                                </div>
                         </div>
                     </div>
                 </section>
@@ -63,7 +91,7 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="row row-cols-3 align-items-start">
+                    <div className="row row-cols-3 align-items-start mx-5">
                         <ProjectTile project="1" />
                         <ProjectTile project="2" />
                         <ProjectTile project="6" />

@@ -160,6 +160,7 @@ a {
 /*homepage marquee*/
 .marquee-skill {
     margin: var(--sm-space) var(--md-space);
+    display: inline-block;
 }
 
 .marquee-skill img {

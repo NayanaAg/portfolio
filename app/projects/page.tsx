@@ -41,7 +41,7 @@ export default function Page() {
                     <div className="col-md-8 offset-md-2 text-center">
 
                         {allSkills.map(skillName =>
-                            <a href="#" className={"btn btn-primary "+ (skillName === filter ? "btn-focus": "")} id="skillName" onClick={(e) => {
+                            <a href="#" className={"btn btn-primary " + (skillName === filter ? "btn-focus" : "")} id="skillName" onClick={(e) => {
                                 setFilter(skillName)
                             }} style={{
                                 border: "var(--btn-outline)",

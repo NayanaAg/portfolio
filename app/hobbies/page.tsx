@@ -60,36 +60,44 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="row row-cols-4 align-items-center flex-row">
+                    <div className="row row-cols-4 flex-row">
                         <div className="col">
                             <div className="hobby-tile">
-                                <img src=".../public/images/hero-banner.jpg"/>
-                                <h3>knitting</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                <img className="image-clip hobby-image" src="./images/knitting.jpg" />
+                                <div className="hobby-content text-center">
+                                    <h3>knitting</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div className="col">
                             <div className="hobby-tile">
-                                <img src=".../public/images/hero-banner.jpg"/>
-                                <h3>knitting</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                <img className="image-clip hobby-image" src="./images/reading.jpg" />
+                                <div className="hobby-content text-center">
+                                    <h3>reading</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div className="col">
                             <div className="hobby-tile">
-                                <img src=".../public/images/hero-banner.jpg"/>
-                                <h3>knitting</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                <img className="image-clip hobby-image" src="./images/travel.jpg" />
+                                <div className="hobby-content text-center">
+                                    <h3>travel</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div className="col">
                             <div className="hobby-tile">
-                                <img src=".../public/images/hero-banner.jpg"/>
-                                <h3>knitting</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                <img className="image-clip hobby-image" src="./images/baking.jpg" />
+                                <div className="hobby-content text-center">
+                                    <h3>baking</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quaerat maiores distinctio cupiditate? Eaque possimus quis harum incidunt adipisci fuga ducimus, ipsa, quae animi beatae similique doloremque. Sint, autem architecto.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

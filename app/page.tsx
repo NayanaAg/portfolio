@@ -12,13 +12,15 @@ export default function Page() {
             <main>
                 <div className="row d-flex" id="hero-banner">
                     <div className="col-md-4 offset-md-2 justify-self-end">
-                        <span id="hero-img">
-                            <img src="images/hero-banner.jpg" alt="picture of me" />
+                        <span className="image-clip-shadow">
+                            <img className="image-clip" id="hero-img" src="images/hero-banner.jpg" alt="picture of me" />
                         </span>
                     </div>
                     <div className="col-md-5 align-self-center">
                         <h1>welcome to my portfolio.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum atque cupiditate laudantium. Veniam deserunt itaque dolor consequuntur maxime, qui possimus enim iste, tenetur ex culpa repudiandae voluptate mollitia asperiores fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem itaque provident incidunt fuga. Id sequi cumque repudiandae officiis sit quod numquam suscipit, eum minus dolorem, unde sed mollitia nulla facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quibusdam quidem eaque sunt! Non minima excepturi necessitatibus ipsam cum porro est eveniet. A sunt autem fugit dolores at eos mollitia.</p>
+                        <p>I'm a UX designer, aspiring web developer, and best-practices enthusiast. I'm also well-known at my company for being literally the only person who gets excited about documentation and Standard Operating Procedures for our web processes.</p>
+
+                        <p>On this website (which I coded in an effort to learn how to wrangle React and Next.js), you will find traditional UX research and development projects, as well as my more unique work experience. This includes print media publishing, writing & editing, social media marketing, and much more! </p>
                     </div>
                 </div>
 
@@ -62,22 +64,22 @@ export default function Page() {
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/figma.png" />
-                                    <p>Canva</p>
+                                    <p>Figma</p>
                                 </div>
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/excel.png" />
-                                    <p>Canva</p>
+                                    <p>Excel</p>
                                 </div>
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/jira.png" />
-                                    <p>Canva</p>
+                                    <p>Jira</p>
                                 </div>
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/slack.png" />
-                                    <p>Canva</p>
+                                    <p>Slack</p>
                                 </div>
                         </div>
                     </div>

@@ -22,7 +22,7 @@
     --body-font: "Noto Sans", sans-serif;
     --tag-font: "Space Grotesk", sans-serif;
 
-    --h1-size: 4em;
+    --h1-size: 3em;
     --h2-size: 2.5em;
     --h3-size: 1.2em;
     --body-size: 1em;
@@ -146,13 +146,16 @@ a {
 }
 
 #hero-img {
-    filter: drop-shadow(-30px -20px #D86354);
-}
-
-#hero-img img {
     margin-top: var(--xl-space);
     width: 60%;
+}
+
+.image-clip {
     clip-path: inset(0% 0% 10% 25% round 50% 50% 0px 0px);
+}
+
+.image-clip-shadow {
+    filter: drop-shadow(-30px -20px #D86354);
 }
 
 /*hero image end*/
@@ -251,4 +254,15 @@ a {
     margin: 0 auto !important;
     padding: var(--md-space) var(--sm-space);
 }
-  
+/*carousel end*/
+
+/*hobbies page*/
+.hobby-image {
+    height: 300px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.hobby-content {
+    width: 80%;
+}

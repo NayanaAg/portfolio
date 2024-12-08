@@ -1,5 +1,6 @@
 import React from "react";
 import GlobalNav from "./components/nav";
+import ProjectTile from "./components/project-tile";
 import Marquee from "react-fast-marquee";
 
 export default function Page() {
@@ -25,27 +26,27 @@ export default function Page() {
                     <div className="row">
                         <div className="col-12 g-0 m-0">
                             <Marquee direction="left">
-                                <div className = "marquee-skill">
+                                <div className="marquee-skill">
                                     <img src="images/icons/html.png" />
                                     <p>HTML 5</p>
                                 </div>
 
-                                <div className = "marquee-skill">
+                                <div className="marquee-skill">
                                     <img src="images/icons/react.png" />
                                     <p>React</p>
                                 </div>
 
-                                <div className = "marquee-skill">
+                                <div className="marquee-skill">
                                     <img src="images/icons/illustrator.png" />
                                     <p>Adobe Illustrator</p>
                                 </div>
 
-                                <div className = "marquee-skill">
+                                <div className="marquee-skill">
                                     <img src="images/icons/photoshop.png" />
                                     <p>Adobe Photoshop</p>
                                 </div>
 
-                                <div className = "marquee-skill">
+                                <div className="marquee-skill">
                                     <img src="images/icons/indesign.png" />
                                     <p>Adobe Indesign</p>
                                 </div>
@@ -58,11 +59,18 @@ export default function Page() {
                     <div className="row">
                         <div className="col-md-10 offset-md-1">
                             <h2>Case studies</h2>
+                            <p>The most recent and complex UX design and development projects I've worked on.</p>
                         </div>
                     </div>
-                </section>
-            </main>
-        </div>
+
+                    <div className="row row-cols-3 align-items-start">
+                        <ProjectTile project="1" />
+                        <ProjectTile project="2" />
+                        <ProjectTile project="6" />
+                    </div>
+                </section >
+            </main >
+        </div >
 
 
     </>

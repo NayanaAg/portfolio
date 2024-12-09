@@ -26,6 +26,7 @@ export default function Page() {
                 <section>
                     <div className="row">
                         <div className="col-10 offset-1 text-center">
+                            <Carousel project="3" />
                             <p className="carousel-desc">Selected pictures from wireframes and live website</p>
                             <a className="btn project-btn" href="https://nayanaag.github.io/soup-night/">Visit the website</a>
                         </div>

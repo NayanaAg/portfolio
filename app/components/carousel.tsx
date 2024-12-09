@@ -29,19 +29,19 @@ export default function Carousel(props) {
         <div key={project.id} className="slider-container project-carousel mx-3 my-4">
             <Slider {...settings}>
                 <div>
-                    <img src={"/images/projects" + images["img-1"]} />
+                    <img src={"../images/projects" + images["img-1"]} />
                 </div>
                 <div>
-                    <img src={"/images/projects" + images["img-2"]} />
+                    <img src={"../images/projects" + images["img-2"]} />
                 </div>
                 <div>
-                    <img src={"/images/projects" + images["img-3"]} />
+                    <img src={"../images/projects" + images["img-3"]} />
                 </div>
                 <div>
-                    <img src={"/images/projects" + images["img-4"]} />
+                    <img src={"../images/projects" + images["img-4"]} />
                 </div>
                 <div>
-                    <img src={"/images/projects" + images["img-5"]} />
+                    <img src={"../images/projects" + images["img-5"]} />
                 </div>
 
             </Slider>

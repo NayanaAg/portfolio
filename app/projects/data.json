@@ -39,6 +39,13 @@
         "date": "Nov 2024",
         "page": "projects/overdrive-redesign",
         "image": "/tpl/tpl-redesign.png",
+        "carousel": {
+            "img-1": "/tpl/tpl-1.png",
+            "img-2": "/tpl/tpl-2.png",
+            "img-3": "/tpl/tpl-3.png",
+            "img-4": "/tpl/tpl-4.png",
+            "img-5": "/tpl/tpl-5.png"
+        },
         "alt": "homepage redesign for toronto public library",
         "tag": "UX Design, Canva & Figma"
     },
@@ -48,6 +55,13 @@
         "date": "Dec 2024",
         "page": "projects/portfolio-process",
         "image": "/portfolio/portfolio.png",
+        "carousel": {
+            "img-1": "/portfolio/portfolio-1.png",
+            "img-2": "/portfolio/portfolio-2.png",
+            "img-3": "/portfolio/portfolio-3.png",
+            "img-4": "/portfolio/portfolio-4.png",
+            "img-5": "/portfolio/portfolio-5.png"
+        },
         "alt": "stylized picture of me from homepage of this website",
         "tag": "React & Typscript, Canva & Figma, UX Design"
     },
@@ -74,7 +88,14 @@
         "name": "Speculative Climate App Design",
         "date": "Dec 2024",
         "page": "projects/climate-app",
-        "image": "/projects/folktales.png",
+        "image": "/penguin/penguin-3.png",
+        "carousel": {
+            "img-1": "/penguin/penguin-1.png",
+            "img-2": "/penguin/penguin-2.png",
+            "img-3": "/penguin/penguin-3.png",
+            "img-4": "/penguin/penguin-4.png",
+            "img-5": "/penguin/penguin-5.png"
+        },
         "alt": "penguins in the snow",
         "tag": "UX Design, Canva & Figma"
     }

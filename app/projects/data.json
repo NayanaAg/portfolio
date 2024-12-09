@@ -124,9 +124,18 @@
         "id": 8,
         "name": "Nayana's Reading Log",
         "date": "Dec 2024",
-        "page": "projects/reading",
+        "page": "projects/reading-log",
         "image": "/reading/reading.png",
         "alt": "bookshelf image",
         "tag": "UX design, HTML & CSS, React & Typescript"
+    },
+    {
+        "id": 9,
+        "name": "Checkout Flow Prototype",
+        "date": "Dec 2024",
+        "page": "projects/checkout-flow",
+        "image": "/checkout/checkout-flow.png",
+        "alt": "pumpkin candle next to cinnamon sticks",
+        "tag": "UX design, Canva & Figma"
     }
 ]

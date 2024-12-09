@@ -16,21 +16,24 @@ export default function Page() {
                         <p>I appreciate any and all feedback about my portfolio, whether it's deep insightful comments or just a typo that I missed. I would love to have a quick chat, even if it’s about the most random thing!</p>
                     </div>
                     <div className="col-5">
-                        <form id="contact-form">
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+
+                        <input type="hidden" name="access_key" value="18889202-c100-47e9-9a54-c558ac663cac" />
+
                             <div className="form-group">
                                 <label htmlFor="name">Name: </label>
-                                <input type="text" className="form-control" id="name" aria-describedby="Enter your name" />
+                                <input type="text" className="form-control" id="name" aria-describedby="Enter your name" required />
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="email">Email address: </label>
-                                <input type="email" className="form-control" id="email" aria-describedby="Enter your email address" />
+                                <input type="email" className="form-control" id="email" aria-describedby="Enter your email address" required />
                                 <small id="email" className="form-text text-muted">I'll never share your email with anyone else. </small>
                             </div>
 
                             <div className="form-group">
                                 <label htmlFor="message">Put any questions and comments here!</label>
-                                <textarea className="form-control" id="message"></textarea>
+                                <textarea className="form-control" id="message" required></textarea>
                             </div>
 
                             <button type="submit" className="btn btn-primary" id="submit-btn">Send</button>

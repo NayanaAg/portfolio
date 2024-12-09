@@ -6,8 +6,6 @@ import TopButton from "../../components/top-btn";
 import Carousel from "../../components/carousel";
 import Footer from "../../components/footer";
 
-import "../projects.css";
-
 export default function Page() {
     return <>
 
@@ -16,25 +14,43 @@ export default function Page() {
             <TopButton version="btn-green" />
 
             <main>
+
                 <div className="row">
                     <div className="col-8 offset-2 text-center">
-                        <h1 className="h1-spacer">TPL Overdrive Website Resign</h1>
-                        <strong>UX Researcher, designer</strong>
+                        <h1 className="h1-spacer">Business redesign: Egguino</h1>
+                        <strong>information architecture designer, UX researcher, wireframe designer</strong>
                     </div>
                 </div>
 
                 <section>
                     <div className="row">
-                        <div className="col-10 offset-1 text-center">
+                        <div className="col-8 offset-2 text-center">
                             <Carousel project="3" />
-                            <p className="carousel-desc">Selected pictures from wireframes and live website</p>
-                            <a className="btn project-btn" href="https://nayanaag.github.io/soup-night/">Visit the website</a>
+                            <p className="carousel-desc">Pain point research, content organization, and restructuring logic.</p>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div className="col-8 offset-2">
+                            <h2>The brief</h2>
+                            <p></p>
+
+                            <h2>Process</h2>
+                            <p></p>
+
+                            <h2>Notable elements</h2>
+                            <p></p>
+
+                            <h2>Project takeaways</h2>
+                            <p></p>
                         </div>
                     </div>
                 </section>
             </main>
             <Footer />
-
         </div>
     </>
 }

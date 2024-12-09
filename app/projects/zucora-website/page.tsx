@@ -6,6 +6,7 @@ import TopButton from "../../components/top-btn";
 import Carousel from "../../components/carousel";
 import Footer from "../../components/footer";
 
+
 export default function Page() {
     return <>
 
@@ -14,21 +15,21 @@ export default function Page() {
             <TopButton version="btn-green" />
 
             <main>
-
                 <div className="row">
                     <div className="col-8 offset-2 text-center">
-                        <h1 className="h1-spacer">How I designed my portfolio (this website!)</h1>
-                        <strong>Content writer, UX designer, React and Nextjs developer</strong>
+                        <h1 className="h1-spacer">Zucora B2B Website Redesign</h1>
+                        <strong>User flows and UX researcher, Component designer, QA Tester</strong>
                     </div>
                 </div>
 
                 <section>
                     <div className="row">
                         <div className="col-8 offset-2 text-center">
-                            <Carousel project="4" />
-                            <p className="carousel-desc">Wireframes, final designed elements, and some cool pieces of code.</p>
+                            <Carousel project="6" />
+                            <p className="carousel-desc">Pictures of the design process and some unique elements.</p>
 
                         </div>
+
                     </div>
                 </section>
 

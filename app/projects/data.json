@@ -5,6 +5,13 @@
         "date": "Jun 2018",
         "page": "projects/folktales",
         "image": "/folktales/folktales.png",
+        "carousel": {
+            "img-1": "/folktales/folktales-1.png",
+            "img-2": "/folktales/folktales-2.png",
+            "img-3": "/folktales/folktales-3.png",
+            "img-4": "/folktales/folktales-4.png",
+            "img-5": "/folktales/folktales-5.png"
+        },
         "alt": "front cover of published folktales book with art montage on front",
         "tag": "print media design, writing & editing, leadership"
     },
@@ -30,6 +37,13 @@
         "date": "Oct 2024",
         "page": "projects/egguino-rebrand",
         "image": "/egguino/egguino-christmas.png",
+        "carousel": {
+            "img-1": "/egguino/egguino-1.png",
+            "img-2": "/egguino/egguino-2.png",
+            "img-3": "/egguino/egguino-3.png",
+            "img-4": "/egguino/egguino-4.png",
+            "img-5": "/egguino/egguino-5.png"
+        },
         "alt": "penguin enjoying snow outside",
         "tag": "HTML & CSS, UX design"
     },
@@ -80,6 +94,13 @@
         "date": "Sep 2024",
         "page": "projects/zucora-website",
         "image": "/zucora-website/zucora-website.png",
+        "carousel": {
+            "img-1": "/zucora-website/zuc-website-1.png",
+            "img-2": "/zucora-website/zuc-website-2.png",
+            "img-3": "/zucora-website/zuc-website-3.png",
+            "img-4": "/zucora-website/zuc-website-4.png",
+            "img-5": "/zucora-website/zuc-website-5.png"
+        },
         "alt":"Zucora website homepage",
         "tag": "UX Design, Marketing, Canva & Figma"
     },

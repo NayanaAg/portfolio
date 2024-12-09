@@ -4,6 +4,7 @@ import React from "react";
 import GlobalNav from "../../components/nav";
 import TopButton from "../../components/top-btn";
 import Carousel from "../../components/carousel";
+import Footer from "../../components/footer";
 
 
 export default function Page() {
@@ -24,7 +25,7 @@ export default function Page() {
                 <section>
                     <div className="row">
                         <div className="col-8 offset-2 text-center">
-                            <Carousel project="1" />
+                            <Carousel project="0" />
                             <p className="carousel-desc">Pictures of some of our finished pages.</p>
 
                         </div>
@@ -34,15 +35,23 @@ export default function Page() {
 
                 <section>
                     <div className="row">
-                        <div className="col-10 offset-1">
-                            <h2>
-                                Project brief
-                            </h2>
+                        <div className="col-8 offset-2">
+                            <h2>The brief</h2>
+                            <p></p>
+
+                            <h2>Process</h2>
+                            <p></p>
+
+                            <h2>Notable elements</h2>
+                            <p></p>
+
+                            <h2>Project takeaways</h2>
+                            <p></p>
                         </div>
                     </div>
                 </section>
             </main>
-
+            <Footer />
         </div>
     </>
 }

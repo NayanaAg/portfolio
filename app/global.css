@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+main {
+    width: 100% !important;
+}
+
 :root {
     /*colours*/
     --primary: #ACF0D1;
@@ -32,10 +36,10 @@
 
     /*spacing*/
     --xs-space: 1em;
-    --sm-space: 1.25em;
-    --md-space: 1.5em;
-    --lg-space: 2em;
-    --xl-space: 3em;
+    --sm-space: calc(var(--xs-space) * 1.25);
+    --md-space: calc(var(--xs-space) * 1.5);
+    --lg-space: calc(var(--xs-space) * 2);
+    --xl-space: calc(var(--xs-space) * 3);
 
     /*element styling*/
     --btn-radius: 20px;
@@ -118,7 +122,21 @@ a {
     background-color: var(--accent) !important;
 }
 
+@media screen and (max-width: 500px) {
+    .btn-primary {
+        padding: var(--xs-space);
+        margin: calc(var(--xs-space) / 2);
+        font-size: 0.9em !important;
+    }
+}
+
 /*global navigation*/
+.navbar .container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+}
+
 #global-nav {
     background-color: var(--dark-bg);
     padding: 0;
@@ -180,6 +198,11 @@ a {
     width: 50px;
 }
 
+@media screen and (max-width: 500px) {
+    .marquee-skill {
+        margin: calc(var(--xs-space) / 2) var(--sm-space);
+    }
+}
 
 /*hobbies marquee*/
 .hobbies-container {

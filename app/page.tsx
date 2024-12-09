@@ -10,7 +10,7 @@ export default function Page() {
             <GlobalNav />
 
             <main>
-                <div className="row d-flex" id="hero-banner">
+                <div className="row px-4 py-3 d-flex" id="hero-banner">
                     <div className="col-md-4 offset-md-2 justify-self-end">
                         <span className="image-clip-shadow">
                             <img className="image-clip" id="hero-img" src="images/hero-banner.jpg" alt="picture of me" />
@@ -25,7 +25,7 @@ export default function Page() {
                 </div>
 
                 <section>
-                    <div className="row">
+                    <div className="row my-3">
                         <div className="col-12 text-center g-0 m-0">
                                 <div className="marquee-skill">
                                     <img src="images/icons/html.png" />
@@ -87,13 +87,13 @@ export default function Page() {
 
                 <section>
                     <div className="row">
-                        <div className="col-md-10 offset-md-1">
+                        <div className="col-10 offset-1">
                             <h2>Case studies</h2>
                             <p>The most recent and complex UX design and development projects I've worked on.</p>
                         </div>
                     </div>
 
-                    <div className="row row-cols-3 align-items-start mx-5">
+                    <div className="row row-cols-md-3 row-cols align-items-start mx-md-5 mx-2">
                         <ProjectTile project="1" />
                         <ProjectTile project="2" />
                         <ProjectTile project="6" />

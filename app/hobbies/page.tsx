@@ -15,7 +15,7 @@ export default function Page() {
 
             <main>
                 <div className="row">
-                    <div className="col-8 offset-2 text-center">
+                    <div className="col-10 offset-1 col-md-8 offset-md-2 text-center">
                         <h1 className="h1-spacer">hobbies & interests</h1>
                         <p>Are you the type of person who jumps between various interests and hobbies every few months? Then we’ll get along great! Here’s everything I’ve been dabbling in over the last few years.</p>
                     </div>
@@ -64,7 +64,7 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="row row-cols-4 mx-5 flex-row">
+                    <div className="row row-cols row-cols-md-4 mx-5 flex-row">
                         <div className="col px-1">
                             <div className="hobby-tile d-flex flex-column justify-content-end">
                                 <img className="image-clip hobby-image" src="./images/knitting.jpg" />
@@ -115,7 +115,7 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="row row-cols-3 align-items-start mx-5">
+                    <div className="row row-cols-md-3 row-cols align-items-start mx-5">
                         <ProjectTile project="8" />
                         <ProjectTile project="1" />
                         <ProjectTile project="7" />

@@ -38,8 +38,8 @@ export default function Page() {
                     </div>
                 </div>
 
-                <div className="row mx-5">
-                    <div className="col-md-8 offset-md-2 text-center">
+                <div className="row mx-md-4 mx-0">
+                    <div className="col-12 col-md-8 offset-md-2 text-center">
 
                         {allSkills.map(skillName =>
                             <a href="#" className={"btn btn-primary " + (skillName === filter ? "btn-focus" : "")} id="skillName" onClick={(e) => {
@@ -68,7 +68,7 @@ export default function Page() {
                     </div>
                 </section>
 
-                <div className="row row-cols-4 align-items-center flex-row">
+                <div className="row row-cols-md-4 mx-md-3 mx-2 row-cols align-items-center flex-row">
 
                     {ProjectList.map((project, li) => {
 

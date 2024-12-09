@@ -13,7 +13,14 @@
         "name": "Soup Night microsite",
         "date": "Sept 2024",
         "page": "projects/soup-night",
-        "image": "/projects/soup-night.png",
+        "image": "/soup-night/soup-night.png",
+        "carousel": {
+            "img-1": "/soup-night/soup-night-1.png",
+            "img-2": "/soup-night/soup-night-2.png",
+            "img-3": "/soup-night/soup-night-3.png",
+            "img-4": "/soup-night/soup-night-4.png",
+            "img-5": "/soup-night/soup-night-5.png"
+        },
         "alt": "art of several bowls of soup",
         "tag": "HTML & CSS, UX design"
     },

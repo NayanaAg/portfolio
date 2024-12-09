@@ -3,7 +3,9 @@ import ProjectList from "../projects/data.json";
 import "../projects/projects.css";
 
 export default function ProjectTile(props) {
+    
     const project = ProjectList[props.project]
+
     return <>
         <div className="col">
             <div key={project.id} className="product-tile p-0">

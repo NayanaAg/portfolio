@@ -1,6 +1,10 @@
+"use client";
+
 import React from "react";
 import GlobalNav from "../../components/nav";
 import TopButton from "../../components/top-btn";
+import Carousel from "../../components/carousel";
+
 
 export default function Page() {
     return <>
@@ -18,7 +22,11 @@ export default function Page() {
                 </div>
 
                 <section>
-                    {/*The images for this project will go here*/}
+                    <div className="row">
+                        <div className="col-10 offset-1">
+                            <Carousel project="1" />
+                        </div>
+                    </div>
                     <p>Caption for the images / carousel will go here</p>
                 </section>
             </main>

@@ -1,15 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
+import ProjectList from "../projects/data.json";
+
 import Slider from "@ant-design/react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import ProjectList from "../projects/data.json";
 import "../projects/projects.css";
 
-function CenterMode(props) {
-
-    let project = ProjectList[props.project]
+export default function Carousel(props) {
 
     const settings = {
         className: "center",
@@ -19,32 +18,33 @@ function CenterMode(props) {
         centerPadding: "100px",
         slidesToShow: 3,
         speed: 500,
-        focusOnSelect: true
+        focusOnSelect: true,
     };
-    return (
-        <div className="slider-container project-carousel mx-3 my-4">
+
+    const project = ProjectList[props.project]
+
+    const images = project.carousel
+
+    return <>
+        <div key={project.id} className="slider-container project-carousel mx-3 my-4">
             <Slider {...settings}>
                 <div>
-                    <img src="../images/hero-banner.jpg" />
+                    <img src={"/images/projects" + images["img-1"]} />
                 </div>
                 <div>
-                    <img src="../images/hero-banner.jpg" />
+                    <img src={"/images/projects" + images["img-2"]} />
                 </div>
                 <div>
-                    <img src="../images/hero-banner.jpg" />
+                    <img src={"/images/projects" + images["img-3"]} />
                 </div>
                 <div>
-                    <img src="../images/hero-banner.jpg" />
+                    <img src={"/images/projects" + images["img-4"]} />
                 </div>
                 <div>
-                    <img src="../images/hero-banner.jpg" />
+                    <img src={"/images/projects" + images["img-5"]} />
                 </div>
-                <div>
-                    <img src="../images/hero-banner.jpg" />
-                </div>
+
             </Slider>
         </div>
-    );
+    </>;
 }
-
-export default CenterMode;

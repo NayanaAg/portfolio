@@ -1,7 +1,6 @@
 import React from "react";
 import GlobalNav from "./components/nav";
 import ProjectTile from "./components/project-tile";
-import Marquee from "react-fast-marquee";
 
 export default function Page() {
     return <>

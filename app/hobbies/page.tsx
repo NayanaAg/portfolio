@@ -2,6 +2,7 @@ import React from "react";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
 import ProjectTile from "../components/project-tile";
+import Footer from "../components/footer";
 
 import Marquee from "react-fast-marquee";
 
@@ -65,8 +66,8 @@ export default function Page() {
 
                     <div className="row row-cols-4 flex-row">
                         <div className="col px-1">
-                        <div className="hobby-tile d-flex flex-column justify-content-end">
-                        <img className="image-clip hobby-image" src="./images/knitting.jpg" />
+                            <div className="hobby-tile d-flex flex-column justify-content-end">
+                                <img className="image-clip hobby-image" src="./images/knitting.jpg" />
                                 <div className="hobby-content text-center">
                                     <h3>knitting</h3>
                                     <p>I love knitting, crochet, embroidery, and pretty much all other yarn crafts! Not only is it a great way to destress and feel productive on long commutes, it also gives me the opportunity to make cute gifts for my family and friends.</p>
@@ -75,8 +76,8 @@ export default function Page() {
                         </div>
 
                         <div className="col px-1">
-                        <div className="hobby-tile d-flex flex-column justify-content-end">
-                        <img className="image-clip hobby-image" src="./images/reading.jpg" />
+                            <div className="hobby-tile d-flex flex-column justify-content-end">
+                                <img className="image-clip hobby-image" src="./images/reading.jpg" />
                                 <div className="hobby-content text-center">
                                     <h3>reading</h3>
                                     <p>Reading and decorating my bookshelf have been two of my favourite things ever since I was a kid. You can see one of my projects, <a href="#">this website I made</a> to track my annual reading activity. Check out my digital library and find some great recommendations :)</p>
@@ -95,8 +96,8 @@ export default function Page() {
                         </div>
 
                         <div className="col px-1">
-                        <div className="hobby-tile d-flex flex-column justify-content-end">
-                        <img className="image-clip hobby-image" src="./images/baking.jpg" />
+                            <div className="hobby-tile d-flex flex-column justify-content-end">
+                                <img className="image-clip hobby-image" src="./images/baking.jpg" />
                                 <div className="hobby-content text-center">
                                     <h3>baking</h3>
                                     <p>I'm an avid watcher of Great British Bake Off, Top Chef, Masterchef, pretty much every cooking and baking show out there. I love getting together with my friends to make elaborate meals (bonus points if we all have enough leftovers to stock the fridge for a week!)</p>
@@ -120,9 +121,8 @@ export default function Page() {
                         <ProjectTile project="7" />
                     </div>
                 </section>
-
-
             </main >
+            <Footer />
         </div >
     </>
 }

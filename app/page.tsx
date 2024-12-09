@@ -1,6 +1,7 @@
 import React from "react";
 import GlobalNav from "./components/nav";
 import ProjectTile from "./components/project-tile";
+import Footer from "./components/footer";
 
 export default function Page() {
     return <>
@@ -99,6 +100,7 @@ export default function Page() {
                     </div>
                 </section >
             </main >
+            <Footer />
         </div >
 
 

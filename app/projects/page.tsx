@@ -5,6 +5,7 @@ import "./projects.css";
 import GlobalNav from "../components/nav";
 import TopButton from "../components/top-btn";
 import ProjectList from "./data.json";
+import Footer from "../components/footer";
 
 export default function Page() {
 
@@ -93,6 +94,7 @@ export default function Page() {
                     })}
                 </div>
             </main >
+            <Footer />
         </div>
     </>
 }

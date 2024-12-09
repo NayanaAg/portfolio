@@ -276,3 +276,16 @@ a {
 .hobby-content {
     margin: var(--sm-space) var(--lg-space);
 }
+/*hobbies end*/
+
+/*footer*/
+#footer-bg {
+    margin-top: var(--xl-space);
+    padding: var(--md-space);
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+#footer-text {
+    font-size: 0.9em;
+}

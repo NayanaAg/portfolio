@@ -59,3 +59,15 @@
 .carousel-desc {
     font-style: italic;
 }
+
+.project-btn {
+    background-color: var(--accent) !important;
+    padding: var(--xs-space) var(--sm-space) !important;
+    border-radius: var(--btn-radius) !important;
+    transition: background-color var(--transition-time) !important;
+}
+
+.project-btn:hover {
+    background-color: var(--accent-hover) !important;
+    color: white !important;
+}

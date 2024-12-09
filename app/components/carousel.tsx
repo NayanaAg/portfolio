@@ -21,9 +21,9 @@ export default function Carousel(props) {
         focusOnSelect: true,
     };
 
-    const project = ProjectList[props.project]
+    const project = ProjectList[props.project];
 
-    const images = project.carousel
+    const images = project.carousel;
 
     return <>
         <div key={project.id} className="slider-container project-carousel mx-3 my-4">

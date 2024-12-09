@@ -4,7 +4,7 @@
         "name": "Folktales of the world",
         "date": "Jun 2018",
         "page": "projects/folktales",
-        "image": "/projects/folktales.png",
+        "image": "/folktales/folktales.png",
         "alt": "front cover of published folktales book with art montage on front",
         "tag": "print media design, writing & editing, leadership"
     },
@@ -29,7 +29,7 @@
         "name": "Egguino Christmas rebrand",
         "date": "Oct 2024",
         "page": "projects/egguino-rebrand",
-        "image": "/projects/egguino-christmas.png",
+        "image": "/egguino/egguino-christmas.png",
         "alt": "penguin enjoying snow outside",
         "tag": "HTML & CSS, UX design"
     },
@@ -38,7 +38,7 @@
         "name": "Toronto Overdrive Redesign",
         "date": "Nov 2024",
         "page": "projects/overdrive-redesign",
-        "image": "/projects/tpl-redesign.png",
+        "image": "/tpl/tpl-redesign.png",
         "alt": "homepage redesign for toronto public library",
         "tag": "UX Design, Canva & Figma"
     },
@@ -47,7 +47,7 @@
         "name": "Personal Portfolio",
         "date": "Dec 2024",
         "page": "projects/portfolio-process",
-        "image": "/projects/portfolio.png",
+        "image": "/portfolio/portfolio.png",
         "alt": "stylized picture of me from homepage of this website",
         "tag": "React & Typscript, Canva & Figma, UX Design"
     },
@@ -56,7 +56,7 @@
         "name": "Zucora landing pages",
         "date": "Jun 2024",
         "page": "projects/landing-pages",
-        "image": "/projects/landing-pages.png",
+        "image": "/zucora-landing/landing-pages.png",
         "alt": "zucora logo and banner",
         "tag": "UX Design, Canva & Figma"
     },
@@ -65,7 +65,7 @@
         "name": "Zucora Website Redesign",
         "date": "Sep 2024",
         "page": "projects/zucora-website",
-        "image": "/projects/zucora-website.png",
+        "image": "/zucora-website/zucora-website.png",
         "alt":"Zucora website homepage",
         "tag": "UX Design, Marketing, Canva & Figma"
     },

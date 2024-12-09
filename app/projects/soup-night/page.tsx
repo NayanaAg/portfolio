@@ -23,11 +23,20 @@ export default function Page() {
 
                 <section>
                     <div className="row">
-                        <div className="col-10 offset-1">
+                        <div className="col-10 offset-1 text-center">
                             <Carousel project="1" />
+                            <p className="carousel-desc">Caption for the images / carousel will go here</p>
                         </div>
                     </div>
-                    <p>Caption for the images / carousel will go here</p>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div className="col-10 offset-1">
+                            <h2>The brief</h2>
+                            <p></p>
+                        </div>
+                    </div>
                 </section>
             </main>
 

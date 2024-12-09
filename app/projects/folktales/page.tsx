@@ -1,15 +1,12 @@
 "use client";
 
 import React from "react";
-
 import GlobalNav from "../../components/nav";
 import TopButton from "../../components/top-btn";
 import Carousel from "../../components/carousel";
 
-import "slick-carousel";
 
 export default function Page() {
-
     return <>
 
         <div id="container">
@@ -27,7 +24,7 @@ export default function Page() {
                 <section>
                     <div className="row">
                         <div className="col-8 offset-2 text-center">
-                            <Carousel />
+                            <Carousel project="1" />
                             <p className="carousel-desc">Pictures of some of our finished pages.</p>
 
                         </div>

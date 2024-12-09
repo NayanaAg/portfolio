@@ -47,8 +47,9 @@
 }
 
 .project-carousel img {
-    padding: 20px;
+    padding: var(--lg-space);
     width: 100%;
+    object-fit: cover;
 }
 
 .project-carousel .center .slick-center {

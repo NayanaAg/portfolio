@@ -23,7 +23,7 @@
     --tag-font: "Space Grotesk", sans-serif;
 
     --h1-size: 3em;
-    --h2-size: 2.5em;
+    --h2-size: 2.2em;
     --h3-size: 1.2em;
     --body-size: 1em;
 
@@ -274,7 +274,7 @@ a {
 }
 
 .hobby-content {
-    margin: var(--sm-space) var(--lg-space);
+    margin: var(--xs-space) var(--lg-space);
 }
 /*hobbies end*/
 

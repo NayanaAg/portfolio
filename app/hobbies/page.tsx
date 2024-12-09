@@ -64,7 +64,7 @@ export default function Page() {
                         </div>
                     </div>
 
-                    <div className="row row-cols-4 flex-row">
+                    <div className="row row-cols-4 mx-5 flex-row">
                         <div className="col px-1">
                             <div className="hobby-tile d-flex flex-column justify-content-end">
                                 <img className="image-clip hobby-image" src="./images/knitting.jpg" />
@@ -116,7 +116,7 @@ export default function Page() {
                     </div>
 
                     <div className="row row-cols-3 align-items-start mx-5">
-                        <ProjectTile project="0" />
+                        <ProjectTile project="8" />
                         <ProjectTile project="1" />
                         <ProjectTile project="7" />
                     </div>

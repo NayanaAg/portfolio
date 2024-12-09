@@ -11,16 +11,16 @@ export default function Page() {
 
     const allSkills = [
         "HTML & CSS",
-        "UX Design",
+        "UX design",
         "React & Typescript",
         "Print media design",
         "Canva & Figma",
-        "Adobe Suite",
-        "Social Media",
-        "Writing & Editing",
+        "Adobe suite",
         "Leadership",
         "Marketing",
     ];
+
+    {/**/}
 
     const [filter, setFilter] = useState("");
 
@@ -34,11 +34,11 @@ export default function Page() {
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2 text-center">
                         <h1 className="h1-spacer">my projects</h1>
-                        <p>Looking through people’s portfolios can be overwhelming, especially when they’re like mine -- chaotic, colourful, and very diverse. I decided to sort through the content on this website and categorize it by relevant skills which you, as an employer, may be looking for. Click on any of the buttons below to filter my projects. Or, if you’re just here to browse, scroll through all the projects below at your own leisure :)</p>
+                        <p>Looking through people’s portfolios can be overwhelming, especially when they’re like mine -- chaotic, colourful, and very diverse. I decided to sort through the content on this website and categorize it by relevant skills which you, may be looking for. Click on any of the buttons below to filter my projects. Or, if you’re just here to browse, scroll through all the projects below at your own leisure :)</p>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row mx-5">
                     <div className="col-md-8 offset-md-2 text-center">
 
                         {allSkills.map(skillName =>

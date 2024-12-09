@@ -40,6 +40,72 @@ export default function Page() {
                 </div>
 
                 <section>
+                    <div className="row">
+                        <div className="col-12 text-center g-0 m-0">
+                            <div className="marquee-skill">
+                                <img src="images/icons/html.png" />
+                                <p>HTML 5</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/react.png" />
+                                <p>React</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/github.png" />
+                                <p>Canva</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/illustrator.png" />
+                                <p>Illustrator</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/photoshop.png" />
+                                <p>Photoshop</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/indesign.png" />
+                                <p>InDesign</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/canva.png" />
+                                <p>Canva</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/figma.png" />
+                                <p>Figma</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/excel.png" />
+                                <p>Excel</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/jira.png" />
+                                <p>Jira</p>
+                            </div>
+
+                            <div className="marquee-skill">
+                                <img src="images/icons/slack.png" />
+                                <p>Slack</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="row">
+                        <div className="col-10 offset-1">
+                            <h2>Here's what my friends are saying!</h2>
+                        </div>
+                    </div>
                     <div className="row mt-5">
                         <div className="col-md-6 offset-md-3">
 

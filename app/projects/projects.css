@@ -32,3 +32,29 @@
     color: black !important;
     font-size: var(--h3-size);
 }
+
+.project-carousel button {
+    display: inline-block;
+}
+
+.slick-prev,.slick-next {
+    transform: scale(1.5);
+  }
+
+.slick-prev:before,.slick-next:before {
+    color: var(--accent);
+    opacity: 100%;
+}
+
+.project-carousel img {
+    padding: 20px;
+    width: 100%;
+}
+
+.project-carousel .center .slick-center {
+    transform: scale(1.25, 1.25) !important;
+}
+
+.carousel-desc {
+    font-style: italic;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./global.css";
 
 export const metadata = {
-  title: "Nayana's Portflio",
+  title: "Nayana's Portfolio",
   description: 'I coded this portfolio from scratch using React, Bootstrap, and Next.js. Here, you can find my relevant work experience, hobbies, and a way to contact me. Enjoy!',
 }
 

@@ -135,6 +135,13 @@
         "date": "Dec 2024",
         "page": "projects/checkout-flow",
         "image": "/checkout/checkout-flow.png",
+        "carousel": {
+            "img-1": "/checkout/checkout-1.png",
+            "img-2": "/checkout/checkout-2.png",
+            "img-3": "/checkout/checkout-3.png",
+            "img-4": "/checkout/checkout-4.png",
+            "img-5": "/checkout/checkout-5.png"
+        },
         "alt": "pumpkin candle next to cinnamon sticks",
         "tag": "UX design, Canva & Figma"
     }

@@ -3,6 +3,7 @@
 import React from "react";
 import GlobalNav from "../../components/nav";
 import TopButton from "../../components/top-btn";
+import Carousel from "../../components/carousel";
 import Footer from "../../components/footer";
 
 export default function Page() {
@@ -25,7 +26,7 @@ export default function Page() {
                     <div className="row">
                         <div className="col-8 offset-2 text-center">
                             <p className="carousel-desc">Process images of wireframes and layout</p>
-                            <Carousel project="2" />
+                            <Carousel project="9" />
                             <a className="btn project-btn" href="https://www.figma.com/proto/Z8wXhRxO9JlPIWVSQP8NMY/DESN3033-Sitemaps-and-Designs?node-id=73-6&p=f&t=1OCOCz8Jqb99IelO-1&scaling=scale-down&content-scaling=fixed&page-id=73%3A5&starting-point-node-id=73%3A6">See the Figma prototype</a>
 
                         </div>

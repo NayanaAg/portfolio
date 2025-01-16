@@ -126,6 +126,13 @@
         "date": "Dec 2024",
         "page": "projects/reading-log",
         "image": "/reading/reading.png",
+        "carousel": {
+            "img-1": "/reading/reading-1.png",
+            "img-2": "/reading/reading-2.png",
+            "img-3": "/reading/reading-3.png",
+            "img-4": "/reading/reading-4.png",
+            "img-5": "/reading/reading-5.png"
+        },
         "alt": "bookshelf image",
         "tag": "UX design, HTML & CSS, React & Typescript"
     },

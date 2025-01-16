@@ -155,7 +155,7 @@ a {
 
 #global-nav a {
     text-decoration: none;
-    color: white;
+    color: white !important;
     padding: var(--sm-space);
     transition: var(--transition-time);
     font-weight: var(--mdbold);
@@ -228,6 +228,15 @@ a {
     padding-left: 15px;
     content: "•"
 }
+
+#solo-links {
+    color: var(--accent) !important;
+}
+
+#solo-links:hover {
+    color: var(--accent-hover) !important;
+}
+
 /*marquee end*/
 
 /*contact form*/

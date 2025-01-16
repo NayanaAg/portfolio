@@ -80,7 +80,7 @@ export default function Page() {
                                 <img className="image-clip hobby-image" src="./images/reading.jpg" />
                                 <div className="hobby-content text-center">
                                     <h3>reading</h3>
-                                    <p>Reading and decorating my bookshelf have been two of my favourite things ever since I was a kid. You can see one of my projects, <a href="#">this website I made</a> to track my annual reading activity. Check out my digital library and find some great recommendations :)</p>
+                                    <p>Reading and decorating my bookshelf have been two of my favourite things ever since I was a kid. You can see one of my projects, <a id="solo-links" target="_blank" href="https://nayanaag.github.io/reading-log/">this website I made</a> to track my annual reading activity. Check out my digital library and find some great recommendations :)</p>
                                 </div>
                             </div>
                         </div>

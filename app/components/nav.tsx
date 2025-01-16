@@ -26,7 +26,7 @@ export default function GlobalNav() {
                                         <Link className="nav-link" href="/contact">Contact</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" href="#">Resume</Link>
+                                        <a className="nav-link" href="/NayanaAg-Resume.pdf" target="_blank">Resume</a>
                                     </li>
                                 </ul>
                             </div>

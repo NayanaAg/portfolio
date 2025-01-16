@@ -80,6 +80,15 @@
         "tag": "React & Typescript, Canva & Figma, UX design"
     },
     {
+        "id": 5,
+        "name": "Zucora landing pages",
+        "date": "Jun 2024",
+        "page": "projects/landing-pages",
+        "image": "/zucora-landing/landing-pages.png",
+        "alt": "zucora logo and banner",
+        "tag": "UX design, Canva & Figma"
+    },
+    {
         "id": 6,
         "name": "Zucora Website Redesign",
         "date": "Sep 2024",

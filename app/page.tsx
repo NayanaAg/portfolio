@@ -39,7 +39,7 @@ export default function Page() {
 
                                 <div className="marquee-skill">
                                     <img src="images/icons/github.png" />
-                                    <p>Canva</p>
+                                    <p>Github</p>
                                 </div>
 
                                 <div className="marquee-skill">

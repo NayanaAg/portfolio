@@ -68,8 +68,8 @@ export default function Page() {
                                 </div>
 
                                 <div className="marquee-skill">
-                                    <img src="images/icons/excel.png" />
-                                    <p>Excel</p>
+                                    <img src="images/icons/microsoft.png" />
+                                    <p>Microsoft Office</p>
                                 </div>
 
                                 <div className="marquee-skill">

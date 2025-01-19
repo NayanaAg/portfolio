@@ -231,6 +231,7 @@ a {
 
 #solo-links {
     color: var(--accent) !important;
+    font-weight: bold !important;
 }
 
 #solo-links:hover {

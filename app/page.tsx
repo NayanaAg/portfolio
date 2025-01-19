@@ -13,14 +13,16 @@ export default function Page() {
                 <div className="row px-4 py-3 d-flex" id="hero-banner">
                     <div className="col-md-4 offset-md-2 justify-self-end">
                         <span className="image-clip-shadow">
-                            <img className="image-clip" id="hero-img" src="images/hero-banner.jpg" alt="picture of me" />
+                            <img className="image-clip" id="hero-img" src="images/hero-banner2.jpg" alt="picture of me" />
                         </span>
                     </div>
                     <div className="col-md-5 align-self-center">
                         <h1>welcome to my portfolio.</h1>
-                        <p>I'm a UX designer, aspiring web developer, and best-practices enthusiast. I'm also well-known at my company for being literally the only person who gets excited about documentation and Standard Operating Procedures for our web processes.</p>
+                        <h4>Design & Media Experience Specialist at Zucora Inc.</h4>
+                        <p>At Zucora, I'm responsible for our webpage and digital ad design, print materials design, wireframing, and marketing campaigns & initiatives. <a id="solo-links" href="zucora.com" target="_blank">Check out our revamped website here!</a></p>
+                        <hr/>
+                        <p>I'm a UX designer, aspiring web developer, and best-practices enthusiast. I'm also well-known at my company for being literally the only person who gets excited about documentation and Standard Operating Procedures.</p>
 
-                        <p>On this website (which I coded in an effort to learn how to wrangle React and Next.js), you will find traditional UX research and development projects, as well as my more unique work experience. This includes print media publishing, writing & editing, social media marketing, and much more! </p>
                     </div>
                 </div>
 

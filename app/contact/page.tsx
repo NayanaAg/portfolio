@@ -57,7 +57,7 @@ export default function Page() {
 
                             <div className="marquee-skill">
                                 <img src="images/icons/github.png" />
-                                <p>Canva</p>
+                                <p>Github</p>
                             </div>
 
                             <div className="marquee-skill">
@@ -86,9 +86,9 @@ export default function Page() {
                             </div>
 
                             <div className="marquee-skill">
-                                <img src="images/icons/excel.png" />
-                                <p>Excel</p>
-                            </div>
+                                    <img src="images/icons/microsoft.png" />
+                                    <p>Microsoft Office</p>
+                                </div>
 
                             <div className="marquee-skill">
                                 <img src="images/icons/jira.png" />

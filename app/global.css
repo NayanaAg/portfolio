@@ -6,8 +6,8 @@
     padding: 0;
 }
 
-main {
-    width: 100% !important;
+body {
+    width: 100vw;
 }
 
 :root {

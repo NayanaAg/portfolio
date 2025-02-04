@@ -96,7 +96,7 @@ export default function Page() {
                     </div>
 
                     <div className="row row-cols-md-3 row-cols align-items-start mx-md-5 mx-2">
-                        <ProjectTile project="1" />
+                        <ProjectTile project="0" />
                         <ProjectTile project="3" />
                         <ProjectTile project="8" />
                     </div>

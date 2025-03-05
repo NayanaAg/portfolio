@@ -19,7 +19,7 @@ export default function Page() {
                     <div className="col-md-5 align-self-center">
                         <h1>welcome to my portfolio.</h1>
                         <h4>Design & Media Experience Specialist at Zucora Inc.</h4>
-                        <p>At Zucora, I'm responsible for our webpage and digital ad design, print materials design, wireframing, and marketing campaigns & initiatives. <a id="solo-links" href="zucora.com" target="_blank">Check out our revamped website here!</a></p>
+                        <p>At Zucora, I'm responsible for our webpage and digital ad design, print materials design, wireframing, and marketing campaigns & initiatives. <a id="solo-links" href="https://zucora.com/en" target="_blank">Check out our revamped website here!</a></p>
                         <hr/>
                         <p>I'm a UX designer, aspiring web developer, and best-practices enthusiast. I'm also well-known at my company for being literally the only person who gets excited about documentation and Standard Operating Procedures.</p>
 

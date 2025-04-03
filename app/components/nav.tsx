@@ -20,7 +20,7 @@ export default function GlobalNav() {
                                         <Link className="nav-link" href="/projects">Projects</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" href="/hobbies">Hobbies</Link>
+                                        <Link className="nav-link" href="/hobbies">About</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" href="/contact">Contact</Link>
